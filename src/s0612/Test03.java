@@ -4,9 +4,9 @@ public class Test03 {
 	
 	public static void main(String[] args) {
 		char c = '1';
-		char name1 = '¹Ú';
-		char name2 = '°æ';
-		char name3 = 'ÈÆ';
+		char name1 = 'ê¹€';
+		char name2 = 'ì •';
+		char name3 = 'ìˆ˜';
 		System.out.println(name1+name2+name3);
 	}
 }

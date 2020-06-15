@@ -12,6 +12,7 @@ public class Test02 {
 		float f = 1.1F;
 		double d = 2.1;
 
+		
 	}
 
 }

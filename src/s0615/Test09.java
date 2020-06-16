@@ -7,14 +7,14 @@ public class Test09 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		
-		System.out.print("³Ê ¸î»ìÀÌ´Ï? : ");
+		System.out.print("ë„ˆ ëª‡ì‚´ì´ë‹ˆ? : ");
 		String age = s.nextLine();
-		System.out.println("¾Æ ³Ê "+ age + "»ìÀÌ±¸³ª");
+		System.out.println("ì•„ ë„ˆ"+ age + "ì‚´ì´êµ¬ë‚˜");
 		
 //		String age = "";
 		int myAge = Integer.parseInt(age);
 		int gener = myAge / 10;
-		System.out.println(gener*10+"´ë");
+		System.out.println(gener*10+"ëŒ€");
 		
 		}
 }

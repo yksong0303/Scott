@@ -6,12 +6,12 @@ public class Test08 {
 		int b = 2;
 		
 		if(a==b) 
-			System.out.println("a¿Í b´Â °°½À´Ï´Ù.");
+			System.out.println("aì™€ bëŠ” ê°™ë‹¤");
 			
 		if(a>b) {
-			System.out.println("a°¡ bº¸´Ù Å®´Ï´Ù.");
+			System.out.println("aëŠ” bë³´ë‹¤ í¬ë‹¤.");
 		}else {
-			System.out.println("a°¡ bº¸´Ù ÀÛ½À´Ï´Ù.");
+			System.out.println("bëŠ” aë³´ë‹¤ í¬ë‹¤.");
 		}
 	}
 

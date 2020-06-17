@@ -14,6 +14,12 @@ public class StringTest2 {
 		System.out.println(str.lastIndexOf("2")); // last를 붙이게 되면 오른쪽에서 가장 가까운 위치를 찾아줌 / 또한 메소드를 겹칠땐 2번째 문자부터 대문자로 바꿔줘야함
 		System.out.println(str.replace("23", "이삼")); // 특정 문자를 바꿔줌
 
+		
+		String str1 = "12345";
+		str1 = str1.replace("12","일이"); // 값을 지정해줘야지 코드 변경이 성립됨
+		System.out.println(str1);
+		
+		
 	}
 
 }

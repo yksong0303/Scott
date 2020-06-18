@@ -14,7 +14,7 @@ public class Test11 {
 		String[] str = new String[4];
 		System.out.println(str[1]); */
 		String str= null;
-		System.out.println(str.equals("null"));
+		System.out.println(str.equals(""));
 //				
 	}
 }

@@ -22,7 +22,9 @@ public class Test10 {
 		String str1 = "123";
 		str = "123";
 		System.out.println(str == str1);
-
+		//String a = null;
+		//System.out.println((a).equals"1");<< a라는 값이 null이기 때문에 String1의 값과 비교자체가 불가능, 따라서 오류남
+		//System.out.println("1".equals(a));<< 1이라는 String 값과 null의 값을 비교함으로 null은 값 자체가 없으므로 비교가능
 	}
 
 }

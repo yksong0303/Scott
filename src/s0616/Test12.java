@@ -10,7 +10,7 @@ public class Test12 {
 //Test12의 멤버 변수
 	public static void main(String[] args) {
 		System.out.println(num);
-		Test12 t = new Test12();
+		Test12 t = new Test12();// 메인에서 쓸수 있기때문에 클래스도 static이다
 //자바에 기존 선언코드를 알려줌으로서 String값을 검색할 수 있도록 한다
 		System.out.println(t.str);
 

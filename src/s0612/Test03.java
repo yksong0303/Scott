@@ -8,5 +8,7 @@ public class Test03 {
 		char name2 = '정';
 		char name3 = '수';
 		System.out.println(name1+name2+name3);
+		
+		//문자 하나만 저장 가능함
 	}
 }

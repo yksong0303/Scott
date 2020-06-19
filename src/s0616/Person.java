@@ -1,12 +1,12 @@
 package s0616;
 
 public class Person {
-	String name;
+	String name; // 디폴트 타입, 같은 패키지 안에서만 작동
 	String address;
 	int age;
 
 	void run() {
-		System.out.println(name + "이(가) 달립니다.");
+		System.out.println(name + "이(가) 달립니다.");// 원래는 name앞에 this.이 붙어야함
 // 만약 void run(String name)이라는 수식이 들어가면 (this.name~~~) 으로 적어줘야 알아들음
 		if (age > 30) {
 			System.out.println(age + "가 되니까 지치는구나.");

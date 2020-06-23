@@ -1,6 +1,6 @@
 package s0623;
 
-public class Computer {// Ä¸½¶È­
+public class Computer {// Ä¸ï¿½ï¿½È­
 	private String cpu;
 	private int ram;
 	private String board;
@@ -11,15 +11,6 @@ public class Computer {// Ä¸½¶È­
 		
 	}
 	
-	void upgrade(String cpu) {
-		this.cpu = cpu;
-	}
-	void upgrade(int ram) {
-		this.ram = ram;
-	}
-	void upgrade(String board) {
-		this.board = board;
-	}
 	
 	void printInfo() {
 		System.out.println("CPU : "+this.cpu);

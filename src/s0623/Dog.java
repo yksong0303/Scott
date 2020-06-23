@@ -3,6 +3,8 @@ package s0623;
 public class Dog {
 	private String name;
 	private int age;
+	
+	
 	public String toString() {
 		return "name : "+name+"age : "+age;
 	}

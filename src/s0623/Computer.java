@@ -1,6 +1,6 @@
 package s0623;
 
-public class Computer {// ĸ��ȭ
+public class Computer {//
 	private String cpu;
 	private int ram;
 	private String board;

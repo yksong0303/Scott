@@ -14,6 +14,8 @@ public class Lotto2 {
 					System.out.println("다시");
 					i--;
 
+				}else if(nums[i]>nums[i+1]){
+					
 				}
 
 			}

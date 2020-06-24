@@ -42,7 +42,7 @@ public class GrandFather extends GreatGrandFather {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		GrandFather gf = new GrandFather();
+		
 
 		System.out.println();
 		

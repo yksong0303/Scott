@@ -16,6 +16,15 @@ public class ListTest2 {
 				numList.add(num);
 			}
 		}
+		int maxNum = 0;
+		int idx = -1;
+		for (int i = 0 ; i < numList.size();i++) {
+			if(maxNum<numList.get(i)) {
+				maxNum = numList.get(i);
+				idx=i;
+			}
+		}
+		System.out.println();
 
 		for (int i = 0; i < numList.size(); i++) {
 			System.out.println(i + "공간 = " + numList.get(i));
